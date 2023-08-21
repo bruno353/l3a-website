@@ -1,0 +1,100 @@
+.page-content .container {
+    max-width: 1353px;
+    padding-left: 238px;
+    padding-top: 3rem;
+}
+
+.connector-description {
+    letter-spacing: 0px;
+    color: #555;
+}
+
+.exchange-list-wrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.tabs {
+    position: relative;
+}
+
+.tabs::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--divider);
+}
+
+.tabs .vertical-divider {
+    height: 14px;
+    border-left: 1px solid var(--divider);
+}
+
+.tabs .tab {
+    cursor: pointer;
+    padding: 6px 22px;
+    position: relative;
+}
+
+.tabs .tab::after {
+    position: absolute;
+    content: "";
+    height: 12px;
+    right: 0;
+    top: 11px;
+    border-right: 1px solid var(--divider);
+}
+
+.tabs .tab:last-child::after {
+    border-right: none;
+}
+
+.tab.active {
+    box-shadow: 0 -9px 14px -4px #5551 !important;
+    font-family: 'Inter Bold';
+    z-index: 5;
+    background-color: white;
+    border: 2px solid var(--divider);
+    border-bottom: none;
+}
+
+.exchange-list-wrapper .exchange-list-title {
+    font-size: 24px;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.exchange-list-wrapper .exchange-list-title b {
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.exchange-list-wrapper table thead th {
+    padding-bottom: 0.5rem;
+}
+
+.exchange-list-wrapper table tbody td {
+    padding: 1rem 0;
+}
+
+.exchange-list-wrapper .icon-container {
+    width: 25px;
+    margin-right: 1rem;
+}
+
+.exchange-list-wrapper table .status .dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .exchange-list-wrapper table {
+        font-size: 12px;
+        min-width: 500px;
+    }
+}

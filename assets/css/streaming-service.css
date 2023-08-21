@@ -1,0 +1,270 @@
+.top-content {
+    background: #fafafa;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.container {
+    max-width: 1136px;
+}
+
+.icons-container img {
+    width: 30px;
+    margin-right: 2rem;
+}
+
+.icons-container img.small {
+    width: 24px;
+}
+
+.info-container {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    max-width: 1100px;
+    font-weight: 300;
+}
+
+.info-card {
+    border-right: 1px solid #ccc;
+    padding: 0 2rem;
+    flex-grow: 1;
+}
+
+.info-card h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.125rem;
+    white-space: nowrap;
+    font-family: "Inter Light";
+}
+
+.info-card p {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Inter Thin";
+}
+
+.info-card:last-child {
+    border-right: none;
+}
+
+.tab-container {
+    padding-bottom: 20rem;
+}
+
+.exchange-list {
+    margin-top: 4rem;
+}
+
+.exchange-list .exchange-item h5 {
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.exchange-list .exchange-item .normal {
+    letter-spacing: -0.6px;
+}
+
+.exchange-list .small-exchange-label {
+    max-width: 120px;
+    margin-top: 0;
+}
+
+.exchange-list img {
+    width: 27px;
+    height: auto;
+}
+
+.feature-card-group {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.feature-card {
+    background-color:  white;
+    border: 1px solid #0057e170;
+    box-shadow: 0 0 5px 1px #3331;
+    max-width: 298px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card h5 {
+    font-size: 18px;
+    line-height: 145%;
+    margin-top: -7px;
+    margin-bottom: 16px;
+}
+
+.feature-card .card-content {
+    max-width: 276px;
+    padding-left: 18px !important;
+}
+
+.endpoint {
+    letter-spacing: 0.1px;
+}
+
+.feature-card .image-wrapper {
+    margin-top: 1.5rem;
+}
+
+.feature-card .image-wrapper img {
+    max-width: 76px;
+}
+
+.feature-card .content {
+    padding: 1rem 2rem;
+}
+
+.feature-card .arrow-icon {
+    width: 38px;
+    height: 28px;
+    opacity: 0.7;
+}
+
+.feature-card .text-default {
+    color: #555;
+}
+
+.code-image-container {
+    overflow: auto;
+}
+
+.code-image-container img {
+    padding: 0 2rem;
+    max-width: 500px;
+    margin-left: 24px;
+}
+
+.technical-info-content {
+    padding-top: 3rem;
+    padding-bottom: 30rem;
+}
+
+.docs-content {
+    padding-top: 5rem;
+    padding-bottom: 30rem;
+}
+
+.research-wrapper, .publication-wrapper {
+    margin-top: 5rem;
+}
+
+.research-card {
+    margin: 0 3rem;
+    background-color: rgb(252, 252, 252);
+    padding: 3rem 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    max-width: 275px;
+}
+
+.research-card:first-child {
+    margin-left: 0;
+}
+
+.research-card h6 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: "Inter Bold";
+}
+
+.research-card p {
+    flex: 1;
+}
+
+.arrow-icon {
+    width: 2rem;
+}
+
+.arrow-icon.small {
+    width: 1.42rem;
+}
+
+.publication-list b {
+    font-weight: 500;
+}
+
+.pairs-table {
+    min-width: 450px;
+}
+
+table {
+    max-width: 658px
+}
+
+.pairs-table td {
+    border-left: 1px solid var(--divider);
+    padding: 10px !important;
+}
+
+table tr td:not(:first-child) {
+    padding-left: 1.714rem !important;
+    padding-right: 1.714rem !important;
+}
+
+.pairs-table tr td:last-child {
+    border-right: 1px solid var(--divider);
+}
+
+.pairs-table tr:first-child {
+    border-top: 1px solid var(--divider);
+}
+
+.pairs-table tr:first-child td {
+    padding-top: 1.4rem !important;
+}
+
+.pairs-table tr:last-child {
+    border-bottom: 1px solid var(--divider);
+}
+
+.pairs-table tr:last-child td {
+    padding-bottom: 1.4rem !important;
+}
+
+.websocket {
+    font-family: "Inter Light";
+}
+
+@media screen and (max-width: 1200px) {
+    .info-container .info-card {
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+
+    .info-container .info-card:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .tab-nav .tab-item {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .research-card {
+        margin-left: 1rem !important;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .technical-info-image {
+        width: 650px !important;
+    }
+}

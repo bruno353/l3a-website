@@ -1,0 +1,249 @@
+.top-content {
+    background: #fafafa;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.container {
+    max-width: 1136px;
+}
+
+.icons-container img {
+    width: 30px;
+    margin-right: 1.5rem;
+}
+
+.icons-container img.small {
+    width: 24px;
+}
+
+.main-page-wrapper {
+    position: relative;
+    max-width: 451px;
+}
+
+.main-page-image {
+    width: 100%;
+    box-shadow: 0 0 6px 0px #3332;
+}
+
+.main-page-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    box-shadow: 0 0 19px -2px #3336;
+    border-radius: 28px;
+}
+
+.main-page-wrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 16px;
+    right: 0;
+    width: 127px;
+    z-index: -1;
+    box-shadow: 0 0 5px 1px #3336;
+}
+
+.info-container {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+.info-container .info-card:first-child {
+    padding-left: 2rem;
+}
+
+.info-container .info-card:last-child {
+    padding-right: 2rem;
+}
+
+.info-card {
+    border-right: 1px solid #ccc;
+    padding: 0 4rem;
+}
+
+.description {
+    max-width: 1100px;
+    font-weight: 300;
+}
+
+.info-card h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.125rem;
+    white-space: nowrap;
+    font-family: "Inter Light";
+}
+
+.info-card p {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Inter Thin";
+}
+
+.info-card:last-child {
+    border-right: none;
+}
+
+.tab-container {
+    padding-bottom: 20rem;
+}
+
+.tab-content {
+    padding-top: 4rem;
+}
+
+.access-button {
+    border-radius: 24px !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.data-table {
+    font-size: 14px;
+}
+
+.data-table tr th:nth-child(1) {
+    width: 21%;
+}
+
+.data-table tr th:nth-child(2) {
+    width: 16%;
+}
+
+.data-table tr th:nth-child(4) {
+    width: 18%;
+}
+
+.data-table thead th {
+    border: 0 !important;
+}
+
+.data-table thead th {
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.data-table tbody td {
+    padding: 1rem 0 !important;
+    color: #888;
+    border-color: #eee;
+}
+
+.data-table tbody {
+    height: 200px;
+    overflow: auto;
+}
+
+.technical-info-content, .docs-content {
+    padding-bottom: 30rem;
+}
+
+.research-wrapper, .publication-wrapper {
+    margin-top: 5rem;
+}
+
+.research-card {
+    margin: 0 3rem;
+    background-color: rgb(252, 252, 252);
+    padding: 3rem 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    max-width: 275px;
+}
+
+.research-card:first-child {
+    margin-left: 0;
+}
+
+.research-card h6 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: "Inter Bold";
+}
+
+.research-card p {
+    flex: 1;
+}
+
+.arrow-icon {
+    width: 2rem;
+}
+
+.arrow-icon.small {
+    width: 1.42rem;
+}
+
+.publication-list b {
+    font-weight: 500;
+}
+
+.products-table {
+    min-width: 750px;
+}
+
+.products-table thead {
+    background: #fafafa;
+}
+
+.endless-title {
+    font-size: 2.125rem;
+    line-height: 2rem;
+    margin-bottom: 38px;
+    letter-spacing: -2px;
+}
+
+.endless-description {
+    max-width: 480px;
+    line-height: 1.8rem;
+}
+
+.query-image {
+    max-width: 586px;
+}
+
+.product-image {
+    max-width: 240px;
+    margin-left: 58px;
+}
+
+@media screen and (max-width: 1200px) {
+    .info-container .info-card {
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+
+    .info-container .info-card:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .tab-nav .tab-item {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .research-card {
+        margin-left: 1rem !important;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .technical-info-image {
+        width: 650px !important;
+    }
+}

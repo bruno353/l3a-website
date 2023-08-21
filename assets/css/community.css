@@ -1,0 +1,73 @@
+.community-card {
+    max-width: 220px;
+    margin: 0 auto 7rem;
+}
+
+
+.update-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 1px #3332;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.update-card .content {
+    padding: 1.5rem 4rem 2rem 1.5rem;
+}
+
+.update-card .title a {
+    font-size: 18px;
+    font-family: 'Inter Medium';
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.update-card .image-wrapper {
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.site-icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    min-height: 74px;
+    justify-content: center;
+}
+
+.arrow-icon {
+    width: 1rem;
+}
+
+.arrow-icon.small {
+    width: 1.42rem;
+}
+
+.research-title {
+    font-size: 1.7rem;
+}
+
+.research-description {
+    max-width: 960px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.update-container {
+    max-width: 1200px;
+}
+
+button.lg {
+    font-size: 13px;
+    padding: 10px 20px;
+    border-radius: 14px;
+}
+
+section:last-child {
+    padding-bottom: 16rem !important;
+}

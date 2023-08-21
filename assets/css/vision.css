@@ -1,0 +1,70 @@
+.vision-content {
+	max-width: 668px;
+	margin: 0 auto;
+	padding-top: 9.625rem;
+	padding-bottom: 18rem;
+}
+
+.vision-content .title {
+	font-size: 4.5rem;
+	letter-spacing: -0.2px;
+	color: #333;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	max-width: 53px;
+	margin: 0 auto;
+	font-size: 9px;
+	text-align: center;
+}
+
+.dots span {
+	font-size: 9px;
+	background-color: #333;
+}
+
+.subtitle {
+	max-width: 508px;
+	margin: 32px auto 8px;
+	line-height: 2rem;
+	font-size: 1.7rem;
+	letter-spacing: -0.3px;
+	color: #333;
+}
+
+.economist {
+	font-size: 12px !important;
+	color: #555 !important;
+;
+}
+
+.vision-content h4 {
+	font-size: 1.857rem;
+	letter-spacing: -0.2px;
+	line-height: 2.142rem;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 600px;
+	font-family: "Inter Medium";
+	margin: 1rem auto 2rem;
+}
+
+.vision-content p {
+	margin-bottom: 18px;
+	margin-top: 6px;
+}
+
+.vision-content p,.vision-content li {
+	font-size: 1rem;
+	color: #555;
+	letter-spacing: 0.2px;
+}
+
+.vision-content p.light {
+	color: #555;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	font-family: Inter Thin;
+}

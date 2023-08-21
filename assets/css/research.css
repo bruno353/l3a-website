@@ -1,0 +1,86 @@
+section {
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+}
+
+.page-container {
+    padding: 0 8rem;
+}
+
+.header {
+    letter-spacing: 0.8px;
+}
+
+.page-container .description {
+    max-width: 860px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.cards-container {
+    max-width: 1000px;
+    margin: 5rem auto 9rem;
+}
+
+.research-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fcfcfc;
+    box-shadow: 0 0 5px 1px #5552;
+    min-height: 300px;
+    max-width: 264px;
+    margin: 0 auto;
+}
+
+.research-card .card-content {
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+.research-card .medium {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+}
+
+.card-content .middle {
+    line-height: 21px;
+    letter-spacing: -0.2px;
+}
+
+.research-card .get-involve {
+    font-family: "Inter Medium";
+}
+
+.card-content .medium {
+    color: #555;
+}
+
+.bottom h5 {
+    font-size: 1.857rem;
+}
+
+.bottom .middle {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 125%;
+}
+
+.bottom button.lg {
+    max-width: 260px;
+    width: 100%;
+}
+
+.verified-description {
+    max-width: 882px;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    line-height: 135%;
+    color: #555;
+}
+
+@media screen and (max-width: 992px) {
+    .page-container {
+        padding: 0 2rem;
+    }
+}
